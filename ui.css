@@ -1,0 +1,12 @@
+.boxsizingBorder {
+    box-sizing: border-box;
+}
+
+fieldset {
+    box-sizing: border-box;
+}
+
+writing {
+    width: 100%;
+    box-sizing: border-box;
+}

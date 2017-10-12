@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE story>
+<!-- Metadata -->
+<story number="0.1">
+    <title number="0.1">
+	The Coupling Matter</title>
+    <chapter number="1">
+	Arminstad's Library</chapter>
+    <section number=""></section>
+    <page number="1">
+
+	<!-- Introductory Text -->
+
+	<entry_text flag="start" effect="none" room="Central Library" rmnum="55">
+	    &lt;p&gt;
+	    You stand alone in the quiet, amber-shaded data store. Being underground, the data store is never exposed to daylight; atmospheric sensors irradiate the room in holomimicry to simulate the natural happenings above. Such fuss to keep the eternally imprisoned students and mortally afflicted overachievers from madness and canabalism. This morning must be of a lazy, roll-out-of-your-underwear kind of 5-day. You are indeed aware that it is 1-day and sunrise-sharp. You were asked by Lead Matthews to join him for a discussion of a coupling in the Main Floor's network trunk that caused catostrophic system failure  last 3-day.
+	    &lt;p&gt;
+	    You, well, you are you. I, well well, I am you as well. I am your A.L.I.A.S. Artificial? Yes. Living? Yes, yes. You are not much one to have need for a system such as myself these days but you felt a gnarl of nostalgia and a tinge of reluctancy to scuttle about these halls once again without your partner from years past. I'll stay out of your way, &lt;b&gt;master&lt;/b&gt;, but do call if you need a helping thought. So me, what shall you do?
+	</entry_text>
+	<return_text flag="0" effect="none">
+	    You are in the Central Library.</return_text>
+
+	<!-- look -->
+	<look>
+	  <around>
+	    <feature>
+	      Eight research stations are centralized at the heart of the Library with seating to accomodate twelve humans. Each station consists of a holomimic projection array with interaction terminals at each seat. A privacy field can be established for particularly rowdy investigations or sensitive undertakings.
+	    </feature>
+	  </around>
+	  <north>
+	    Research terminals are located to the north.
+	  </north>
+	  <east>
+	    Data stacks line the eastern wall of this area.
+	  </east>
+	  <south>
+	    The vacuum lift to the surface is located to the south.
+	  </south>
+	  <west>
+	    The western wall is brimming with knowledge repositories.
+	  </west>
+	</look>
+	
+	<!-- Secrets -->
+
+	<secret location="down" name="power lift" rating="100" pattern="+know_matthews">
+	You find elation in the idiocy of such a passage. The countless times you have sat at this station, kicked at this rug, a multitude of random doo-dads and such dropped in this spot, and never did the consideration of a secret lift fancy a moment's ponder.</secret>
+    </page>
+</story>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	    <?php
+$current = simplexml_load_file('state.xml');
+$story = $current->state;
+$xml = simplexml_load_file($story);
+echo $xml->title;
+?>
+</title>
+<link rel="stylesheet"  type="text/css"  href="style.css" >
+    </head>
+    <body>
+    <h1>
+	    <?php
+    $xml = simplexml_load_file($story);
+echo $xml->title;
+?>
+</h1>
+    <h2>
+Chapter <?php
+    $xml = simplexml_load_file($story);
+echo $xml->chapter['number'];
+?> - <?php
+    $xml = simplexml_load_file($story);
+echo $xml->chapter;
+?>
+</h2>
+    <div class="typewriter">
+	    <?php
+    $xml = simplexml_load_file($story);
+echo $xml->page->entry_text;
+?>
+</div>
+<h2>How Do You Proceed?</h2>
+<fieldset>
+<legend>Select action below</legend>
+<form action="actions.php" method="get">
+    <select name="action">
+    <option value="go">Go</option>
+    <option value="look">Look</option>
+    <option value="fight">Fight</option>
+    <option value="get">Get</option>
+    <option value="escape">Escape</option>
+    <option value="use">Use</option>
+    <pre>
+      <input type="submit" value="Proceed"/>
+    </pre>
+    </select>
+    </body>
+    </html>

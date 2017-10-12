@@ -1,0 +1,7 @@
+.boxsizingBorder {
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%
+}

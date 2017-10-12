@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EMASH Console</title>
+  </head>
+  <body>
+    <div id="summary" class="utility">
+      <h2>Home</h2>
+      <p>Key descriptors, notifications, and warnings are summarized below..</p>
+    </div>
+    
+    <div id="write" class="utility" style="display:none">
+      <h2>Editor</h2>
+      <p>Write your masterpiece here.</p> 
+    </div>
+    
+    <div id="map" class="utility" style="display:none">
+      <h2>Map</h2>
+      <p>A map of the story navigation will be generated here.</p>
+    </div>
+
+    <d                                                                                                                                                                                                                                                                                                                                                                                                             iv id="settings" class="utility" style="display:none">
+      <h2>Settings</h2>
+      <p>TBD Various config options considered such as selecting a language/interpreter for syntax highlighting, etc.</p>
+    </div>
+    
+    <div class="nav_btn">
+      <button class="nav_item" onclick="openUtility('summary')">Home</button>
+      <button class="nav_item" onclicks="openUtility('map')">Map</button>
+      <button class="nav_item" onclick="openUtility('editor')">Editor</button>
+      <button class="nav_item" onclick="openUtility('settings')">Settings</button>
+    </div>admin
+  </body>
+</html>
